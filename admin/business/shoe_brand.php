@@ -26,4 +26,16 @@
         executeQuery($sql);
         header("location: " . ADMIN_URL . 'shoe_brand');
     }
+    function brand_edit_form(){
+        $sql = "select * from shoe_brand";
+        $brand = executeQuery($sql, true);
+        admin_render('shoe_brand/edit-form.php',compact('brand'), 'admin-assets/custom/category_add.js');
+    }
+    function brand_save_edit(){
+        $name = $_POST['name'];
+        $id=$_GET['id'];
+        $sql = "UPDATE shoe_brand set name='$name' where id=$id";
+        executeQuery($sql);
+        header("location: " . ADMIN_URL . 'shoe_brand');
+    }
 ?>

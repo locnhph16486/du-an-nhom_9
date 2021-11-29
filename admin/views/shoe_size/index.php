@@ -16,22 +16,32 @@
                 <table class="table tabl-stripped">
                     <thead>
                         <th>STT</th>
-                        <th>Tên hãng giày</th>
+                        <th>Tên giày</th>
+                        <th>Size</th>
+                        <th>Số lượng</th>
                         <!-- <th>Hiển thị menu</th> -->
                         <th>
-                            <a href="<?= ADMIN_URL . 'shoe_brand/tao-moi'?>" class="btn btn-sm btn-success">Tạo mới</a>
+                            Sửa|Xóa
                         </th>
                     </thead>
                     <tbody>
-                        <?php foreach($brand as $index => $item): ?>
+                        <?php foreach($size as $index => $item): ?>
                             <tr>
                                 <td><?= $index + 1 ?></td>
-                                <td><?= $item['name'] ?></td>
+                                <?php foreach($shoes as $index => $item_s):
+                                    if($item_s['id']==$item['id_shoe']){
+                                ?>
+                                        <td><?= $item_s['name']?></td>
+                                <?php
+                                    }
+                                 endforeach?>
+                                <td><?= $item['size'] ?></td>
+                                <td><?= $item['quantity'] ?></td>
                                 <td>
-                                    <a href="<?= ADMIN_URL . 'shoe_brand/cap-nhat?id='. $item['id'] ?>" class="btn btn-sm btn-info">
+                                    <a href="<?= ADMIN_URL . 'shoe_size/cap-nhat?id='. $item['id'].'&&id_shoe='.$item['id_shoe'] ?>" class="btn btn-sm btn-info">
                                         <i class="fas fa-edit"></i>
                                     </a>
-                                    <a href="javascript:;" onclick="confirm_remove('<?= ADMIN_URL . 'shoe_brand/xoa?id='. $item['id'] ?>', '<?= $item['name']?>')" class="btn btn-sm btn-danger">
+                                    <a href="javascript:;" onclick="confirm_remove('<?= ADMIN_URL . 'shoe_size/xoa?id='. $item['id'] ?>', '<?= $item['size']?>')" class="btn btn-sm btn-danger">
                                         <i class="fas fa-trash"></i>
                                     </a>
                                 </td>

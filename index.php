@@ -38,21 +38,116 @@ switch ($url) {
         require_once './admin/business/shoe_brand.php';
         brand_save_add();
         break;
+    case 'cp-admin/shoe_brand/cap-nhat':
+        require_once './admin/business/shoe_brand.php';
+        brand_edit_form();
+        break;
+    case 'cp-admin/shoe_brand/luu-cap-nhat':
+        require_once './admin/business/shoe_brand.php';
+        brand_save_edit();
+        break;
     case 'cp-admin/shoe_category':
         require_once './admin/business/shoe_category.php';
         category_index();
         break;
     case 'cp-admin/shoe_category/xoa':
         require_once './admin/business/shoe_category.php';
-        brand_remove();
+        category_remove();
         break;
     case 'cp-admin/shoe_category/tao-moi':
         require_once './admin/business/shoe_category.php';
-        brand_add_form();
+        category_add_form();
         break;
     case 'cp-admin/shoe_category/luu-tao-moi':
         require_once './admin/business/shoe_category.php';
-        brand_save_add();
+        category_save_add();
+        break;
+    case 'cp-admin/shoe_category/cap-nhat':
+        require_once './admin/business/shoe_category.php';
+        category_edit_form();
+        break;
+    case 'cp-admin/shoe_category/luu-cap-nhat':
+        require_once './admin/business/shoe_category.php';
+        category_save_edit();
+        break;
+    //
+    case 'cp-admin/shoes':
+        require_once './admin/business/shoes.php';
+        shoes_index();
+        break;
+    case 'cp-admin/shoes/xoa':
+        require_once './admin/business/shoes.php';
+        shoes_remove();
+        break;
+    case 'cp-admin/shoes/tao-moi':
+        require_once './admin/business/shoes.php';
+        shoes_add_form();
+        break;
+    case 'cp-admin/shoes/luu-tao-moi':
+        require_once './admin/business/shoes.php';
+        shoes_save_add();
+        break;
+    case 'cp-admin/shoes/cap-nhat':
+        require_once './admin/business/shoes.php';
+        shoes_edit_form();
+        break;
+    case 'cp-admin/shoes/luu-cap-nhat':
+        require_once './admin/business/shoes.php';
+        shoes_save_edit();
+        break;
+    case 'cp-admin/shoes/chi-tiet-giay':
+        require_once './admin/business/shoes.php';
+        shoes_detailed();
+        break; 
+    //
+    case 'cp-admin/shoe_size':
+        require_once './admin/business/shoe_size.php';
+        size_index();
+        break;
+    case 'cp-admin/shoe_size/xoa':
+        require_once './admin/business/shoe_size.php';
+        size_remove();
+        break;
+    case 'cp-admin/shoe_size/tao-moi':
+        require_once './admin/business/shoe_size.php';
+        size_add_form();
+        break;
+    case 'cp-admin/shoe_size/luu-tao-moi':
+        require_once './admin/business/shoe_size.php';
+        size_save_add();
+        break;
+    case 'cp-admin/shoe_size/cap-nhat':
+        require_once './admin/business/shoe_size.php';
+        size_edit_form();
+        break;
+    case 'cp-admin/shoe_size/luu-cap-nhat':
+        require_once './admin/business/shoe_size.php';
+        size_save_edit();
+        break;
+    //
+    case 'cp-admin/image_shoe':
+        require_once './admin/business/image_shoe.php';
+        image_index();
+        break;
+    case 'cp-admin/image_shoe/xoa':
+        require_once './admin/business/image_shoe.php';
+        image_remove();
+        break;
+    case 'cp-admin/image_shoe/tao-moi':
+        require_once './admin/business/image_shoe.php';
+        image_add_form();
+        break;
+    case 'cp-admin/image_shoe/luu-tao-moi':
+        require_once './admin/business/image_shoe.php';
+        image_save_add();
+        break;
+    case 'cp-admin/image_shoe/cap-nhat':
+        require_once './admin/business/image_shoe.php';
+        image_edit_form();
+        break;
+    case 'cp-admin/image_shoe/luu-cap-nhat':
+        require_once './admin/business/image_shoe.php';
+        image_save_edit();
         break;
     default:
         # code...

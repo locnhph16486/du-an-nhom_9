@@ -16,15 +16,31 @@
         header("location: " . ADMIN_URL . 'shoe_category');
     }
     
-    function brand_add_form(){
+    function category_add_form(){
         $sql = "select * from shoe_brand";
         $brand = executeQuery($sql, true);
         admin_render('shoe_category/add-form.php', compact('brand'), 'admin-assets/custom/category_add.js');
     }
     
-    function brand_save_add(){
+    function category_save_add(){
         $name = $_POST['name'];
-        $sql = "insert into shoe_category (name) values ('$name')";
+        $id = $_POST['id_shoe_brand'];
+        $sql = "insert into shoe_category (id_shoe_brand,name) values ('$id','$name')";
+        executeQuery($sql);
+        header("location: " . ADMIN_URL . 'shoe_category');
+    }
+    function category_edit_form(){
+        $sql = "select * from shoe_category";
+        $category = executeQuery($sql, true);
+        $sql = "select * from shoe_brand";
+        $brand = executeQuery($sql, true);
+        admin_render('shoe_category/edit-form.php',compact('category','brand'), 'admin-assets/custom/category_add.js');
+    }
+    function category_save_edit(){
+        $name = $_POST['name'];
+        $id_shoe_brand= $_POST['id_shoe_brand'];
+        $id=$_GET['id'];
+        $sql = "UPDATE shoe_category set id_shoe_brand=$id_shoe_brand , name='$name' where id=$id";
         executeQuery($sql);
         header("location: " . ADMIN_URL . 'shoe_category');
     }
