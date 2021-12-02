@@ -1,3 +1,9 @@
+<?php 
+  // if(isset($_POST['submit']))
+  // if (empty($_POST["name"])) {  
+  //     echo "Trường này là bắt buộc.";           
+  // }
+?>
 <div class="row">
     <div class="col-12">
         <div class="card">
@@ -39,7 +45,7 @@
                         <div class="d-flex justify-content-center">
                             <a href="<?= ADMIN_URL . 'shoes'?>" class="btn btn-sm btn-danger">Hủy</a>
                             &nbsp;
-                            <button type="submit" class="btn btn-sm btn-primary">Lưu</button>
+                            <button name="submit" type="submit" class="btn btn-sm btn-primary">Lưu</button>
                         </div>
                     </div>
                 </form>
