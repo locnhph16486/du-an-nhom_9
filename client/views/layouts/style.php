@@ -1,4 +1,4 @@
-<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="<?= HOME ?>img/favicon.ico">
 
 <!-- Google Fonts
 ============================================ -->
@@ -10,43 +10,43 @@
 
 <!-- Bootstrap CSS
 ============================================ -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="<?= HOME ?>css/bootstrap.min.css">
 <!-- Bootstrap CSS
 ============================================ -->
-<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="<?= HOME ?>css/font-awesome.min.css">
 <!-- owl.carousel CSS
 ============================================ -->
-<link rel="stylesheet" href="css/owl.carousel.css">
-<link rel="stylesheet" href="css/owl.theme.css">
-<link rel="stylesheet" href="css/owl.transitions.css">
+<link rel="stylesheet" href="<?= HOME ?>css/owl.carousel.css">
+<link rel="stylesheet" href="<?= HOME ?>css/owl.theme.css">
+<link rel="stylesheet" href="<?= HOME ?>css/owl.transitions.css">
 <!-- jquery-ui CSS
 ============================================ -->
-<link rel="stylesheet" href="css/jquery-ui.css">
+<link rel="stylesheet" href="<?= HOME ?>css/jquery-ui.css">
 <!-- meanmenu CSS
 ============================================ -->
-<link rel="stylesheet" href="css/meanmenu.min.css">
+<link rel="stylesheet" href="<?= HOME ?>css/meanmenu.min.css">
 <!-- nivoslider CSS
 ============================================ -->
-<link rel="stylesheet" href="lib/css/nivo-slider.css">
-<link rel="stylesheet" href="lib/css/preview.css">
+<link rel="stylesheet" href="<?= HOME ?>lib/css/nivo-slider.css">
+<link rel="stylesheet" href="<?= HOME ?>lib/css/preview.css">
 <!-- animate CSS
 ============================================ -->
-<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="<?= HOME ?>css/animate.css">
 <!-- magic CSS
 ============================================ -->
-<link rel="stylesheet" href="css/magic.css">
+<link rel="stylesheet" href="<?= HOME ?>css/magic.css">
 <!-- normalize CSS
 ============================================ -->
-<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="<?= HOME ?>css/normalize.css">
 <!-- main CSS
 ============================================ -->
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="<?= HOME ?>css/main.css">
 <!-- style CSS
 ============================================ -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="<?= HOME ?>style.css">
 <!-- responsive CSS
 ============================================ -->
-<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="<?= HOME ?>css/responsive.css">
 <!-- modernizr JS
 ============================================ -->
-<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+<script src="<?= HOME ?>js/vendor/modernizr-2.8.3.min.js"></script>

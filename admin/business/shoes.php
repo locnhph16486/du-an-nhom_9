@@ -62,4 +62,26 @@
         $shoes = executeQuery($sql, true);
         admin_render('shoes/detailed.php', compact('shoes','size','id','img'), 'admin-assets/custom/category_add.js');
     }
+    function filterFloat($field){
+        // Làm sạch số
+        $field = filter_var(trim($field), FILTER_SANITIZE_NUMBER_FLOAT);
+        
+        // Xác thực số
+        if(filter_var($field, FILTER_SANITIZE_NUMBER_FLOAT)){
+            return $field;
+        } else{
+            return FALSE;
+        }
+    }
+    function filterInt($field){
+        // Làm sạch Size
+        $field = filter_var(trim($field), FILTER_SANITIZE_NUMBER_FLOAT);
+        
+        // Xác thực Size
+        if(filter_var($field, FILTER_SANITIZE_NUMBER_FLOAT)){
+            return $field;
+        } else{
+            return FALSE;
+        }
+    }
 ?>

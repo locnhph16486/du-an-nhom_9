@@ -20,10 +20,32 @@
                         <div class="form-group">
                           <label for="">Size</label>
                           <input type="text" name="size" class="form-control" placeholder="" aria-describedby="helpId">
+                          <span style="color:red;"><?php 
+                            if(isset($_GET['errorS'])&&$_GET['errorS']==1){
+                                echo "Bạn phải nhập đúng số";
+                            }
+                            if(isset($_GET['errorS'])&&$_GET['errorS']==0){
+                                echo "Nhập số Size";
+                            }
+                            if(isset($_GET['errorS'])&&$_GET['errorS']==''){
+                                echo "Nhập lại số Size";
+                            }
+                          ?></span>
                         </div>
                         <div class="form-group">
                           <label for="">Số lượng</label>
                           <input type="text" name="quantity" class="form-control" placeholder="" aria-describedby="helpId">
+                          <span style="color:red;"><?php 
+                            if(isset($_GET['errorQ'])&&$_GET['errorQ']==1){
+                                echo "Bạn phải nhập đúng số";
+                            }
+                            if(isset($_GET['errorQ'])&&$_GET['errorQ']==0){
+                                echo "Nhập số lượng";
+                            }
+                            if(isset($_GET['errorQ'])&&$_GET['errorQ']==''){
+                                echo "Nhập lại số lượng";
+                            }
+                          ?></span>
                         </div>
                         <br>
                         <div class="d-flex justify-content-center">

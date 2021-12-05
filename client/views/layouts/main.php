@@ -108,7 +108,7 @@
             <div class="container">
                 <div class="products">
                     <div class="row">
-                        <?php include_once './client/layouts/sidebar.php'; ?>
+                        <?php include_once './client/views/layouts/sidebar.php'; ?>
                         <?php include_once $view; ?>
                     </div>
                 </div>

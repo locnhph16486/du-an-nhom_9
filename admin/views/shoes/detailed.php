@@ -1,3 +1,6 @@
+<div class="row" style="background:#007bff;border-radius:10px;">
+    <h2 style="color: #fff; padding:5px 0px 0px 10px;">Chi Tiết</h2>
+</div>
 <div class="row">
     <div class="col-lg-6">
         <?php foreach($shoes as $index => $item): ?>
@@ -41,7 +44,7 @@
                                 <td><?= $item['size'] ?></td>
                                 <td><?= $item['quantity'] ?></td>
                                 <td>
-                                    <a href="<?= ADMIN_URL . 'shoe_size/cap-nhat?id='. $item['id'] ?>" class="btn btn-sm btn-info">
+                                    <a href="<?= ADMIN_URL . 'shoe_size/cap-nhat?id='. $item['id'].'&&id_shoe='.$item['id_shoe'] ?>" class="btn btn-sm btn-info">
                                         <i class="fas fa-edit"></i>
                                     </a>
                                     <a  onclick="return confirm('Bạn có muốn xóa <?= $item['size']?>');" href="<?= ADMIN_URL . 'shoe_size/xoa?id='. $item['id'] ?>" class="btn btn-sm btn-danger">

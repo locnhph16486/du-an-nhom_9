@@ -4,6 +4,7 @@ const BASE_URL = "http://localhost/du-an-nhom_9/";
 const PUBLIC_URL = BASE_URL . 'public/';
 const ADMIN_URL = BASE_URL . 'cp-admin/';
 const ADMIN_ASSET = BASE_URL . 'public/admin-assets/';
+const HOME = BASE_URL . 'public/home/';
 
 
 function dd(){

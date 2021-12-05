@@ -11,7 +11,7 @@
                 <li role="presentation"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Converse </a></li>
                 <li role="presentation"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Vans </a></li>
                 <li role="presentation"><a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab">Mizuno </a></li>
-                <li> <img src="img/banner/banner-5.jpg" alt=""> </li>
+                <li> <img src="<?= HOME ?>img/banner/banner-5.jpg" alt=""> </li>
             </ul>
         </div>
     </div>
