@@ -23,8 +23,8 @@
         <div class="slider-area home1">
             <div class="bend niceties preview-2">
                 <div id="nivoslider" class="slides">
-                    <img src="img/slider/slider-1.jpg" alt="" title="#slider-direction-1"  />
-                    <img src="img/slider/slider-2.jpg" alt="" title="#slider-direction-2"  />
+                    <img src="<?= HOME ?>img/slider/slider-1.jpg" alt="" title="#slider-direction-1"  />
+                    <img src="<?= HOME ?>img/slider/slider-2.jpg" alt="" title="#slider-direction-2"  />
                 </div>
                 <!-- direction 1 -->
                 <div id="slider-direction-1" class="t-cn slider-direction">
@@ -65,7 +65,7 @@
                     </div>
                     <div class="box-2">
                         <a href="#">
-                            <img src="img/banner/banner-2.jpg" alt="">
+                            <img src="<?= HOME ?>img/banner/banner-2.jpg" alt="">
                         </a>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="box-3">
                         <a href="#">
-                            <img src="img/banner/banner-1.jpg" alt="">
+                            <img src="<?= HOME ?>img/banner/banner-1.jpg" alt="">
                         </a>
                     </div>
                     <div class="box-4 box">
@@ -91,12 +91,12 @@
                     </div>
                     <div class="box-5">
                         <a href="#">
-                            <img src="img/banner/banner-3.jpg" alt="">
+                            <img src="<?= HOME ?>img/banner/banner-3.jpg" alt="">
                         </a>
                     </div>
                     <div class="box-6">
                         <a href="#">
-                            <img src="img/banner/banner-4.jpg" alt="">
+                            <img src="<?= HOME ?>img/banner/banner-4.jpg" alt="">
                         </a>
                     </div>
                 </div>
@@ -134,8 +134,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/1.png" alt="" class="primary-img">
-                                        <img src="img/product/2.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/1.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/2.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -169,8 +169,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/7.png" alt="" class="primary-img">
-                                        <img src="img/product/8.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/7.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/8.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -204,8 +204,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/3.png" alt="" class="primary-img">
-                                        <img src="img/product/4.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/3.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/4.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -239,8 +239,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/9.png" alt="" class="primary-img">
-                                        <img src="img/product/10.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/9.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/10.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -271,8 +271,8 @@
                             <div class="single-product">
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/5.png" alt="" class="primary-img">
-                                        <img src="img/product/6.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/5.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/6.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -306,8 +306,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/3.png" alt="" class="primary-img">
-                                        <img src="img/product/4.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/3.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/4.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -341,8 +341,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/19.png" alt="" class="primary-img">
-                                        <img src="img/product/20.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/19.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/20.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -373,8 +373,8 @@
                             <div class="single-product">
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/13.png" alt="" class="primary-img">
-                                        <img src="img/product/14.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/13.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/14.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -405,8 +405,8 @@
                             <div class="single-product">
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/15.png" alt="" class="primary-img">
-                                        <img src="img/product/16.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/15.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/16.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -440,8 +440,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/17.png" alt="" class="primary-img">
-                                        <img src="img/product/18.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/17.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/18.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -493,8 +493,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/25.png" alt="" class="primary-img">
-                                        <img src="img/product/26.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/25.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/26.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -528,8 +528,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/3.png" alt="" class="primary-img">
-                                        <img src="img/product/4.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/3.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/4.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -563,8 +563,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/2.png" alt="" class="primary-img">
-                                        <img src="img/product/8.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/2.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/8.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -598,8 +598,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/1.png" alt="" class="primary-img">
-                                        <img src="img/product/2.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/1.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/2.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -630,8 +630,8 @@
                             <div class="single-product">
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/17.png" alt="" class="primary-img">
-                                        <img src="img/product/18.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/17.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/18.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -665,8 +665,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/19.png" alt="" class="primary-img">
-                                        <img src="img/product/20.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/19.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/20.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -700,8 +700,8 @@
                                 </div>
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/21.png" alt="" class="primary-img">
-                                        <img src="img/product/22.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/21.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/22.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -732,8 +732,8 @@
                             <div class="single-product">
                                 <div class="product-img">
                                     <a href="single-product.html">
-                                        <img src="img/product/23.png" alt="" class="primary-img">
-                                        <img src="img/product/24.png" alt="" class="secondary-img">
+                                        <img src="<?= HOME ?>img/product/23.png" alt="" class="primary-img">
+                                        <img src="<?= HOME ?>img/product/24.png" alt="" class="secondary-img">
                                     </a>
                                 </div>
                                 <div class="product-name">
@@ -780,7 +780,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-4">
                         <div class="footer-contact">
-                            <img src="img/logo-white.png" alt="">
+                            <img src="<?= HOME ?>img/logo-white.png" alt="">
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
                             <ul class="address">
                                 <li>
@@ -807,7 +807,7 @@
                                 <div class="twitter-article">
                                     <div class="twitter-img">
                                         <a href="#">
-                                            <img src="img/twitter/twitter-1.png" alt="">
+                                            <img src="<?= HOME ?>img/twitter/twitter-1.png" alt="">
                                         </a>
                                     </div>
                                     <div class="twitter-text">
@@ -821,7 +821,7 @@
                                 <div class="twitter-article">
                                     <div class="twitter-img">
                                         <a href="#">
-                                            <img src="img/twitter/twitter-1.png" alt="">
+                                            <img src="<?= HOME ?>img/twitter/twitter-1.png" alt="">
                                         </a>
                                     </div>
                                     <div class="twitter-text">
@@ -882,7 +882,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="payment-icon">
-                            <img src="img/payment.png" alt="">
+                            <img src="<?= HOME ?>img/payment.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -903,7 +903,7 @@
                             <div class="modal-product">
                                 <div class="product-images">
                                     <div class="main-image images">
-                                        <img alt="" src="img/product/quick-view.jpg">
+                                        <img alt="" src="<?= HOME ?>img/product/quick-view.jpg">
                                     </div>
                                 </div>
 
@@ -949,38 +949,38 @@
 
         <!-- jquery
         ============================================ -->
-        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="<?= HOME ?>js/vendor/jquery-1.12.4.min.js"></script>
         <!-- bootstrap JS
         ============================================ -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="<?= HOME ?>js/bootstrap.min.js"></script>
         <!-- wow JS
         ============================================ -->
-        <script src="js/wow.min.js"></script>
+        <script src="<?= HOME ?>js/wow.min.js"></script>
         <!-- price-slider JS
         ============================================ -->
-        <script src="js/jquery-price-slider.js"></script>
+        <script src="<?= HOME ?>js/jquery-price-slider.js"></script>
         <!-- nivoslider JS
         ============================================ -->
-        <script src="lib/js/jquery.nivo.slider.js"></script>
-        <script src="lib/home.js"></script>
+        <script src="<?= HOME ?>lib/js/jquery.nivo.slider.js"></script>
+        <script src="<?= HOME ?>lib/home.js"></script>
         <!-- meanmenu JS
         ============================================ -->
-        <script src="js/jquery.meanmenu.js"></script>
+        <script src="<?= HOME ?>js/jquery.meanmenu.js"></script>
         <!-- owl.carousel JS
         ============================================ -->
-        <script src="js/owl.carousel.min.js"></script>
+        <script src="<?= HOME ?>js/owl.carousel.min.js"></script>
         <!-- elevatezoom JS
         ============================================ -->
-        <script src="js/jquery.elevatezoom.js"></script>
+        <script src="<?= HOME ?>js/jquery.elevatezoom.js"></script>
         <!-- scrollUp JS
         ============================================ -->
-        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="<?= HOME ?>js/jquery.scrollUp.min.js"></script>
         <!-- plugins JS
         ============================================ -->
-        <script src="js/plugins.js"></script>
+        <script src="<?= HOME ?>js/plugins.js"></script>
         <!-- main JS
         ============================================ -->
-        <script src="js/main.js"></script>
+        <script src="<?= HOME ?>js/main.js"></script>
     </body>
 
 <!-- Mirrored from template.hasthemes.com/james/james/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Nov 2021 01:45:53 GMT -->
