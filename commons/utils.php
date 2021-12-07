@@ -5,6 +5,7 @@ const PUBLIC_URL = BASE_URL . 'public/';
 const ADMIN_URL = BASE_URL . 'cp-admin/';
 const ADMIN_ASSET = BASE_URL . 'public/admin-assets/';
 const HOME = BASE_URL . 'public/home/';
+const HOME_ASSET = BASE_URL . 'homepage/';
 
 
 function dd(){
@@ -14,7 +15,11 @@ function dd(){
     echo "</pre>";
     die;
 }
-
+function user_render($link,$data = []){
+    extract($data);
+    $link= './client/views/user/'.$link;
+    include_once $link;
+}
 function client_render($view, $data = []){
     extract($data);
     $view = './client/views/' . $view;

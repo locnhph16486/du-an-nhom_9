@@ -11,6 +11,18 @@ switch ($url) {
         require_once './client/business/homepage.php';
         home();
         break;
+    case 'dang-nhap':
+        require_once './client/business/user.php';
+        login();
+        break;
+    case 'dang-ky':
+        require_once './client/business/user.php';
+        register();
+        break;
+    case 'homepage/home-brand':
+        require_once './client/business/homepage.php';
+        home();
+        break;
     case 'gioi-thieu':
         require_once './client/business/homepage.php';
         about();

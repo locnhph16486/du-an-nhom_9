@@ -17,8 +17,8 @@
                                             </a>
                                             <ul>
                                                 <li><a href="my-account.html">Tài Khoản</a></li>
-                                                <li><a href="#">Đăng Nhập</a></li>
-                                                <li><a href="#">Đăng Xuất</a></li>
+                                                <li><a href="dang-ky">Đăng ký</a></li>
+                                                <li><a href="dang-nhap">Đăng nhập</a></li>
                                                 
                                             </ul>
                                         </li>
@@ -27,12 +27,12 @@
                                 
                                 <div class="cart-menu">
                                     <ul>
-                                        <li><a href="#"> <img src="img/icon-cart.png" alt=""> <span>1</span> </a>
+                                        <li><a href="#"> <img src="<?= HOME ?>img/icon-cart.png" alt=""> <span>1</span> </a>
                                             <div class="cart-info">
                                                 <ul>
                                                     <li>
                                                         <div class="cart-img">
-                                                            <img src="img/cart/2.png" alt="">
+                                                            <img src="<?= HOME ?>img/cart/2.png" alt="">
                                                         </div>
                                                         <div class="cart-details">
                                                             <a href="#">SolarBoost 3 Nam</a>
@@ -59,7 +59,7 @@
                         <div class="col-md-3">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="img/logo.png" alt="">
+                                    <img src="<?= HOME ?>img/logo.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                                                 </div>
                                                 <div class="part-2">
                                                     <a href="#">
-                                                        <img src="img/banner/menu-banner.png" alt="">
+                                                        <img src="<?= HOME ?>img/banner/menu-banner.png" alt="">
                                                     </a>
                                                 </div>
                                             </div>
