@@ -19,7 +19,7 @@ switch ($url) {
         require_once './client/business/user.php';
         register();
         break;
-    case 'homepage/home-brand':
+    case 'home-brand':
         require_once './client/business/homepage.php';
         home();
         break;

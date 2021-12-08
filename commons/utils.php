@@ -5,7 +5,7 @@ const PUBLIC_URL = BASE_URL . 'public/';
 const ADMIN_URL = BASE_URL . 'cp-admin/';
 const ADMIN_ASSET = BASE_URL . 'public/admin-assets/';
 const HOME = BASE_URL . 'public/home/';
-const HOME_ASSET = BASE_URL . 'homepage/';
+const HOME_ASSET = BASE_URL;
 
 
 function dd(){
